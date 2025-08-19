@@ -9,6 +9,7 @@ function shuffleArray(array) {
 }
 
 const movies = [
+    
     {
         id: 1,
         title: "Superman: Legacy (2025)",
@@ -24,7 +25,7 @@ const movies = [
         poster: "https://m.media-amazon.com/images/M/MV5BMDA0NDBkMzMtOWQ0Zi00NjE1LTkxNWYtYzI0MTE0NGJjZTQ1XkEyXkFqcGc@._V1_.jpg",
         details: "Action, Thriller | 480p [350MB] | 720p [1GB] | 1080p [2.5GB]",
         date: "19 Jul 2025",
-        category: "hollywood",
+        category: "netflix",
         link: "/public/download-squid-game-s01-s01-s03-hindi-480p-720p-1080p.html"
     },
     {
@@ -51,7 +52,7 @@ const movies = [
         poster: "https://imgs.search.brave.com/DjdRnJX4d6aIto2wNSSgfut27nHFA9llXNRjt3WUMN0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFncWVSMFlRTUwu/anBn",
         details: "Action, Thriller | 480p [350MB] | 720p [1GB] | 1080p [2.2GB]",
         date: "28 Jun 2025",
-        category: "Thriller",
+        category: "netflix",
         link: "/public/download-stranger-things-hindi-480p-720p-1080p.html"
     },
     {
@@ -66,7 +67,7 @@ const movies = [
     {
         id: 7,
         title: "Saiyaara (2025)",
-        poster: "https://imgs.search.brave.com/5tgNDrgAe5af39n72VLLE4iFxo1rYihLuypP_S9FMQw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlkyTXhNekU0/WldVdFpUSmpPUzAw/WmpRMkxXRTVOV0V0/WW1GbE9UWTJNekZo/WVRNelhrRXlYa0Zx/Y0djQC5qcGc",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/jymezcmEcFvlb037V4SSx8a4SMq.jpg",
         details: "Romance, Drama | 480p [320MB] | 720p [950MB] | 1080p [2.3GB]",
         date: "14 Jun 2025",
         category: "romance",
@@ -100,6 +101,51 @@ const movies = [
         date: "16 Jun 2025",
         category: "hollywood",
         link: "/public/download-avengers-endgame-2019-dual-audio-hindi-english.html"
+    },
+    {
+        id: 11,
+        title: "Peacemaker (2022)",
+        poster: "https://image.tmdb.org/t/p/original/2VWro0xeLsbT0DZZajXR2qAiAo.jpg",
+        details: "Action, Adventure, Comedy| HBO MAX | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
+        date: "16 Jun 2022",
+        category: "hollywood",
+        link: "/public/download-peacemaker-dual-audio-hindi-english-web-series.html"
+    },
+    {
+        id: 12,
+        title: "Sakamoto Days (2025)",
+        poster: "https://image.tmdb.org/t/p/original/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+        details: "Animation, Action, Adventure| Netflix | 480p [96MB] | 720p [250MB] | 1080p [500MB]",
+        date: "16 Jun 2025",
+        category: "netflix",
+        link: "/public/download-sakamoto-days-season-1-multi-audio-hindi-english-japanese-anime-series.html"
+    },
+    {
+        id: 13,
+        title: "The Fantastic Four (2025)",
+        poster: "https://image.tmdb.org/t/p/original/pZPJsaFKWheTOerVhLnpP8TPp4B.jpg",
+        details: "Science Fiction, Adventure | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
+        date: "19 Augest 2025",
+        category: "hollywood",
+        link: "/public/download-the-fantastic-four-first-steps-2025-dual-audio-hindi-english.html"
+    },
+    {
+        id: 14,
+        title: "Mission Impossible: Final Reckoning (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg",
+        details: "Action, Adventure, Thriller | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
+        date: "19 Augest 2025",
+        category: "hollywood",
+        link: "/public/download-mission-impossible- the-final-reckoning-2025-dual-audio.html"
+    },
+    {
+        id: 14,
+        title: "Wednesday S01-S02 (2022-2025)",
+        poster: "https://image.tmdb.org/t/p/original/36xXlhEpQqVVPuiZhfoQuaY4OlA.jpg",
+        details: "Sci-Fi & Fantasy, Mystery, Comedy | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
+        date: "19 Augest 2025",
+        category: "hollywood",
+        link: "/public/download-wednesday-hindi-480p-720p-1080p.html"
     },
     // ...repeat for ids 11-50 with trending movies/series...
 ];
@@ -153,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const text = link.textContent.trim();
             let filteredMovies = [];
             // Web Series platforms
-            if (["Netflix Originals", "Amazon Prime Series", "Disney+ Hotstar", "MX Player"].includes(text)) {
+            if (["Netflix Originals", "Amazon Prime Series", "Disney+ Hotstar", "MX Player", "HBO MAX"].includes(text)) {
                 filteredMovies = movies.filter(movie => movie.details.toLowerCase().includes(text.split(' ')[0].toLowerCase()));
             }
             // Dual Audio
@@ -165,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 filteredMovies = movies.filter(movie => movie.details.toLowerCase().includes(text.toLowerCase()));
             }
             // By Year
-            else if (["2025", "2024", "2023", "2022", "2021"].includes(text)) {
+            else if (["2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015"].includes(text)) {
                 filteredMovies = movies.filter(movie => movie.date.includes(text));
             }
             // If no match, show all
