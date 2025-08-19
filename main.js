@@ -93,15 +93,7 @@ const movies = [
         category: "bollywood",
         link: "/public/download-sitaare-zameen-par-2025-hindi-movie.html"
     },
-    {
-        id: 10,
-        title: "Avengers Endgame (2019)",
-        poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
-        details: "Adventure, Science Fiction, Action| Marvel | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
-        date: "16 Jun 2025",
-        category: "hollywood",
-        link: "/public/download-avengers-endgame-2019-dual-audio-hindi-english.html"
-    },
+
     {
         id: 11,
         title: "Peacemaker (2022)",
@@ -146,6 +138,24 @@ const movies = [
         date: "19 Augest 2025",
         category: "hollywood",
         link: "/public/download-wednesday-hindi-480p-720p-1080p.html"
+    },
+    {
+        id: 15,
+        title: "Rent a Girlfriend S01-S02 (2022-2025)",
+        poster: "https://image.tmdb.org/t/p/original/cJSPdL528HZi3OyhQPAG5wAsHVu.jpg",
+        details: "Animation, Comedy | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
+        date: "19 Augest 2025",
+        category: "anime",
+        link: "/public/download-rent-a-girlfriend-hindi-japanese-480p-720p-1080p.html"
+    },
+    {
+        id: 16,
+        title: "My Dress-Up Darling (2022 - 2025)",
+        poster: "https://image.tmdb.org/t/p/original/A6mxBwvvv63JXZm3xXKv4SugE0L.jpg",
+        details: "Animation, Comedy, Drama | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
+        date: "19 Augest 2025",
+        category: "anime",
+        link: "/public/download-my-dress-up-darling-hindi-season-480p-720p-1080p.html"
     },
     // ...repeat for ids 11-50 with trending movies/series...
 ];
@@ -226,6 +236,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 // Intersection search: include new page items in search
 let extraMovies = [
+        {
+        id: 10,
+        title: "Avengers Endgame (2019)",
+        poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+        details: "Adventure, Science Fiction, Action| Marvel | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
+        date: "16 Jun 2025",
+        category: "hollywood",
+        link: "/public/download-avengers-endgame-2019-dual-audio-hindi-english.html"
+    },
     {
         title: "Attack on Titan",
         details: "Anime | Action | 480p/720p/1080p",
