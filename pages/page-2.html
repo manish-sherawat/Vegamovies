@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>New Movies, Series & Anime - VegaMovies</title>
+  <link rel="icon" type="image/png" href="/src/logo.png">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -14,6 +15,45 @@
       </div>
     </div>
   </header>
+
+  <section class="search-section">
+      <div class="container">
+          <div class="search-container">
+              <input type="search" class="search-input" placeholder="Search Movies or Web-Series here..." id="searchInput" aria-label="Search Movies or Web-Series">
+          </div>
+      </div>
+  </section>
+
+  <section class="category-section">
+      <div class="container">
+          <div class="category-row">
+              <button class="category-btn green">BOLLYWOOD MOVIES</button>
+              <button class="category-btn orange">BOLLYWOOD MOVIES [NEW]</button>
+              <button class="category-btn red">DUAL JUNCTION</button>
+              <button class="category-btn blue">HOLLYWOOD MOVIES</button>
+          </div>
+          <div class="filter-row">
+              <button class="filter-btn">480P</button>
+              <button class="filter-btn">720P</button>
+              <button class="filter-btn">1080P</button>
+              <button class="filter-btn">1080P [60FPS]</button>
+              <button class="filter-btn">2160P 4K</button>
+              <button class="filter-btn">ANIME</button>
+              <button class="filter-btn">ENGLISH</button>
+              <button class="filter-btn">TRENDING</button>
+              <button class="filter-btn">NETFLIX</button>
+              <button class="filter-btn">UPDATED</button>
+              <button class="filter-btn">AMAZON PRIME</button>
+              <button class="filter-btn">DISNEY+</button>
+              <button class="filter-btn">APPLE TV+</button>
+          </div>
+          <div class="filter-row">
+              <button class="filter-btn">SCREAM SERIES</button>
+              <button class="filter-btn">MARVEL CINEMATIC</button>
+              <button class="filter-btn">MOVIES COLLECTION</button>
+          </div>
+      </div>
+  </section>
   <main class="main-content">
     <div class="container">
       <h2 class="section-title">Latest Movies, Series & Anime</h2>
@@ -25,6 +65,17 @@
               <div class="release-date">2025</div>
               <h3 class="movie-title">Attack on Titan Final Season</h3>
               <p class="movie-details">Anime | Action | 480p/720p/1080p</p>
+            </div>
+          </a>
+        </div>
+        <div class="movie-card">
+          <a href="../public/download-avengers-endgame-2019-dual-audio-hindi-english.html">
+            <img src="https://media.themoviedb.org/t/p/w600_and_h900_bestv2/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg" alt="Avengers Endgame" class="movie-poster" loading="lazy">
+            <div class="movie-info">
+              <div class="release-date">2019</div>
+              <h3 class="movie-title">Avengers Endgame</h3>
+              <p class="movie-details">Hollywood | Movie | Adventure, Science Fiction, Action
+ | 480p/720p/1080p</p>
             </div>
           </a>
         </div>
@@ -78,6 +129,20 @@
             </div>
           </a>
         </div>
+      </div>
+      <div class="pagination">
+        <a href="/index.html"><button class="page-btn" data-page="1">1</button></a>
+        <button class="page-btn active" data-page="2">2</button>
+        <button class="page-btn" data-page="3">3</button>
+        <button class="page-btn" data-page="4">4</button>
+        <button class="page-btn" data-page="5">5</button>
+        <button class="page-btn" data-page="6">6</button>
+        <button class="page-btn" data-page="7">7</button>
+        <button class="page-btn" data-page="8">8</button>
+        <button class="page-btn" data-page="9">9</button>
+        <button class="page-btn" data-page="10">10</button>
+        <button class="page-btn dots">...</button>
+        <button class="page-btn" data-page="45">45</button>
       </div>
     </div>
   </main>
