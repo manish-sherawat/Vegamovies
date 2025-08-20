@@ -698,8 +698,20 @@ function debounce(func, wait) {
 
 // Service Worker Registration
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
-        .then(reg => console.log('Service Worker registered'))
+    navigator.serviceWorker.register('/sw.js', {
+        scope: '/',
+        updateViaCache: 'none'
+    })
+        .then(reg => {
+            console.log('Service Worker registered successfully');
+            // Cache robots.txt and sitemap.xml
+            caches.open('static-v1').then(cache => {
+                cache.addAll([
+                    '/robots.txt',
+                    '/sitemap.xml'
+                ]);
+            });
+        })
         .catch(err => console.log('Service Worker registration failed'));
 }
 
