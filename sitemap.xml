@@ -1,140 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Main pages -->
   <url>
-    <loc>https://vegamoviesx.netlify.app/index.html</loc>
-    <lastmod>2025-08-19</lastmod>
+    <loc>https://vegamoviesx.netflify.app/</loc>
+    <lastmod>2025-08-20T12:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/pages/dmca.html</loc>
-    <lastmod>2025-08-19</lastmod>
+    <loc>https://vegamoviesx.netflify.app/pages/dmca.html</loc>
+    <lastmod>2025-08-20T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/pages/request-form.html</loc>
-    <lastmod>2025-08-19</lastmod>
+    <loc>https://vegamoviesx.netflify.app/pages/request-form.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/pages/about-us.html</loc>
-    <lastmod>2025-08-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/pages/page-2.html</loc>
-    <lastmod>2025-08-19</lastmod>
+    <loc>https://vegamoviesx.netflify.app/pages/about-us.html</loc>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/pages/page-2.html</loc>
+    <priority>0.6</priority>
   </url>
 
-  <!-- Latest Movies and Series -->
+  <!-- All movie/series/anime landing pages -->
   <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-the-fantastic-four-first-steps-2025-dual-audio-hindi-english.html</loc>
-    <lastmod>2025-08-19</lastmod>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-mission-impossible-the-final-reckoning-2025-dual-audio.html</loc>
-    <lastmod>2025-08-19</lastmod>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-wednesday-hindi-480p-720p-1080p.html</loc>
-    <lastmod>2025-08-19</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <!-- Recent Movies and Series -->
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-superman-2025-hindi-480p-720p-1080p.html</loc>
-    <lastmod>2025-07-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-squid-game-s01-s01-s03-hindi-480p-720p-1080p.html</loc>
-    <lastmod>2025-07-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-solo-leveling-s01-s02-hindi-english-japanese-480p-720p-1080p.html</loc>
-    <lastmod>2025-07-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Regular Content -->
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-how-to-train-your-dragon-2025-hindi-english-480p-720p-1080p.html</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-stranger-things-hindi-480p-720p-1080p.html</loc>
-    <lastmod>2025-06-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-sonic-the-hedgehog-3-2024-hindi-english-480p-720p-1080p.html</loc>
-    <lastmod>2025-07-03</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-saiyaara-2025-hindi-movie.html</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-the-shiunji-family-children-season-1-multi-audio-hindi-english-japanese.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-sitaare-zameen-par-2025-hindi-movie.html</loc>
-    <lastmod>2025-05-10</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-avengers-endgame-2019-dual-audio-hindi-english.html</loc>
-    <lastmod>2025-06-16</lastmod>
+    <loc>https://vegamoviesx.netflify.app/public/download-the-shiunji-family-children-season-1-multi-audio-hindi-english-japanese.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-peacemaker-dual-audio-hindi-english-web-series.html</loc>
-    <lastmod>2025-06-16</lastmod>
+    <loc>https://vegamoviesx.netflify.app/public/download-superman-2025-hindi-480p-720p-1080p.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-sakamoto-days-season-1-multi-audio-hindi-english-japanese-anime-series.html</loc>
-    <lastmod>2025-06-16</lastmod>
+    <loc>https://vegamoviesx.netflify.app/public/download-stranger-things-hindi-480p-720p-1080p.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-attack-on-titan-final-season-2025-anime.html</loc>
-    <lastmod>2025-07-15</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-chainsaw-man-2025-anime.html</loc>
-    <lastmod>2025-07-10</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-breaking-bad-series-2013.html</loc>
-    <lastmod>2025-08-19</lastmod>
+    <loc>https://vegamoviesx.netflify.app/public/download-squid-game-s01-s01-s03-hindi-480p-720p-1080p.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-peaky-blinders-2022-series.html</loc>
-    <lastmod>2025-08-19</lastmod>
+    <loc>https://vegamoviesx.netflify.app/public/download-sonic-the-hedgehog-3-2024-hindi-english-480p-720p-1080p.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-ballerina-2025-hindi-english.html</loc>
-    <lastmod>2025-08-19</lastmod>
-    <priority>0.7</priority>
+    <loc>https://vegamoviesx.netflify.app/public/download-solo-leveling-s01-s02-hindi-english-japanese-480p-720p-1080p.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vegamoviesx.netlify.app/public/download-jurassic-world-rebirth-2025.html</loc>
-    <lastmod>2025-08-19</lastmod>
-    <priority>0.7</priority>
+    <loc>https://vegamoviesx.netflify.app/public/download-sitaare-zameen-par-2025-hindi-movie.html</loc>
+    <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-saiyaara-2025-hindi-movie.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-peaky-blinders-2022-series.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-jurassic-world-rebirth-2025.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-how-to-train-your-dragon-2025-hindi-english-480p-720p-1080p.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-chainsaw-man-2025-anime.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-breaking-bad-series-2013.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-ballerina-2025-hindi-english.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-avengers-endgame-2019-dual-audio-hindi-english.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vegamoviesx.netflify.app/public/download-attack-on-titan-final-season-2025-anime.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <!-- Add more URLs for any additional landing pages you create -->
 </urlset>
