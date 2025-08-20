@@ -157,6 +157,24 @@ const movies = [
         category: "anime",
         link: "/public/download-my-dress-up-darling-hindi-season-480p-720p-1080p.html"
     },
+    {
+        id: 17,
+        title: "Coolie (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/4NHs0s9WynldKaOpz2UhwD6ZLXe.jpg",
+        details: "Action, Thriller, Crime | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
+        date: "19 Augest 2025",
+        category: "bollywood",
+        link: "/public/download-coolie-2025-hdtc-hindi-full-movie.html"
+    },
+    {
+        id: 18,
+        title: "War 2 (2025)",
+        poster: "https://image.tmdb.org/t/p/original/2Yc8Kl2ldPpDzLrG2M5Ddv62FXB.jpg",
+        details: "Action, Thriller, Adventure | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
+        date: "19 Augest 2025",
+        category: "bollywood",
+        link: "/public/download-war-2-2025-v2-hdtc-hindi-full-movie.html"
+    },
     // ...repeat for ids 11-50 with trending movies/series...
 ];
 // Pagination variables
