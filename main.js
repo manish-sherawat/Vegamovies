@@ -175,6 +175,30 @@ const movies = [
         category: "bollywood",
         link: "/public/download-war-2-2025-v2-hdtc-hindi-full-movie.html"
     },
+    {
+        title: "Locked",
+        details: "Hollywood | Horror, Thriller | 480p/720p/1080p",
+        date: "2025",
+        category: "horror, thriller, hollywood",
+        poster: "https://image.tmdb.org/t/p/original/uHE9sD39lsQnMpCvTRmZrAQpHvH.jpg",
+        link: "/public/download-locked-2025-hindi-english-480p-720p-1080p.html"
+    },
+    {
+        title: "Sonic the Hedgehog 2",
+        details: "Action, Adventure, Family, Comedy | 480p/720p/1080p",
+        date: "2025",
+        category: "action, adventure, hollywood",
+        poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+        link: "/public/download-sonic-the-hedgehog-2-2022-dual-audio-hindi-dubbed-movie.html"
+    },
+    {
+        title: "The Ba***ds of Bollywood",
+        details: "Comedy, Action & Adventure | 480p/720p/1080p",
+        date: "2025",
+        category: "comedy, adventure, bollywood",
+        poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/jvETbrvtXT9VVgfBUM1ekJ5uBdB.jpg",
+        link: "/public/download-the-bads-of-bollywood-hindi-netflix-web-series.html"
+    },
     // ...repeat for ids 11-50 with trending movies/series...
 ];
 // Pagination variables
@@ -270,14 +294,6 @@ let extraMovies = [
         category: "anime",
         poster: "https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         link: "/public/download-attack-on-titan-final-season-2025-anime.html"
-    },
-    {
-        title: "Chainsaw Man",
-        details: "Anime | Adventure, Action, Romance | 480p/720p/1080p",
-        date: "2022",
-        category: "romance, animation",
-        poster: "https://www.themoviedb.org/t/p/w1280/npdB6eFzizki0WaZ1OvKcJrWe97.jpg",
-        link: "/public/download-chainsaw-man-2025-anime.html"
     },
     {
         title: "Breaking Bad",
