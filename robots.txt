@@ -21,4 +21,4 @@ Disallow: /cache/
 Crawl-delay: 10
 
 # Sitemap location
-Sitemap: https://vegamovies.ly/sitemap.xml
+Sitemap: https://vegamoviesx.netlify.app/sitemap.xml
