@@ -199,6 +199,30 @@ const movies = [
         poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/jvETbrvtXT9VVgfBUM1ekJ5uBdB.jpg",
         link: "/public/download-the-bads-of-bollywood-hindi-netflix-web-series.html"
     },
+    {
+        title: "Alice in Borderland S01",
+        details: "Mystery, Drama, Action, Adventure | 480p/720p/1080p",
+        date: "2025",
+        category: "mystery, drama, action, adventure",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/Ac8ruycRXzgcsndTZFK6ouGA0FA.jpg",
+        link: "/public/download-alice-in-borderland-s01-hindi-480p-720p-1080p.html"
+    },
+    {
+        title: "Alice in Borderland S02",
+        details: "Mystery, Drama, Action, Adventure | 480p/720p/1080p",
+        date: "2025",
+        category: "mystery, drama, action, adventure",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/2iUyLK0QyTI6VlXOp3SZbBeR7UW.jpg",
+        link: "/public/download-alice-in-borderland-s02-hindi-480p-720p-1080p.html"
+    },
+    {
+        title: "Alice in Borderland S03",
+        details: "Mystery, Drama, Action, Adventure | 480p/720p/1080p",
+        date: "2025",
+        category: "mystery, drama, action, adventure",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/wEp1zv7AUa1pj6Wav0M4p4wMO6H.jpg",
+        link: "/public/download-alice-in-borderland-s03-hindi-480p-720p-1080p.html"
+    },
     // ...repeat for ids 11-50 with trending movies/series...
 ];
 // Pagination variables
