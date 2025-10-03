@@ -175,14 +175,7 @@ const movies = [
         category: "bollywood",
         link: "/public/download-war-2-2025-v2-hdtc-hindi-full-movie.html"
     },
-    {
-        title: "Locked",
-        details: "Hollywood | Horror, Thriller | 480p/720p/1080p",
-        date: "2025",
-        category: "horror, thriller, hollywood",
-        poster: "https://image.tmdb.org/t/p/original/uHE9sD39lsQnMpCvTRmZrAQpHvH.jpg",
-        link: "/public/download-locked-2025-hindi-english-480p-720p-1080p.html"
-    },
+
     {
         title: "Sonic the Hedgehog 2",
         details: "Action, Adventure, Family, Comedy | 480p/720p/1080p",
@@ -222,6 +215,14 @@ const movies = [
         category: "mystery, drama, action, adventure",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/wEp1zv7AUa1pj6Wav0M4p4wMO6H.jpg",
         link: "/public/download-alice-in-borderland-s03-hindi-480p-720p-1080p.html"
+    },
+        {
+        title: "Steve (2025)",
+        details: "Drama,Comedy |Dual Audio [Hindi + English]| | 480p/720p/1080p",
+        date: "2025",
+        category: "drama,comedy",
+        poster: "https://imgs.search.brave.com/Yg7KFSxgNWS9LC1h0c9WHaApV2DPRap5iU9lbDa5zgU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2Rv/YmxhamUvaW1hZ2Vz/LzMvM2EvU3RldmVf/MjAyNS5qcGVnL3Jl/dmlzaW9uL2xhdGVz/dC9zY2FsZS10by13/aWR0aC1kb3duLzI2/OD9jYj0yMDI1MDgx/MzIzMzgwOSZwYXRo/LXByZWZpeD1lcw",
+        link: "/public/download-steve-2025-hindi-english-480p-720p-1080p.html"
     },
     // ...repeat for ids 11-50 with trending movies/series...
 ];
@@ -303,7 +304,14 @@ document.addEventListener('DOMContentLoaded', function() {
 // Intersection search: include new page items in search
 let extraMovies = [
         {
-        id: 10,
+        title: "Locked",
+        details: "Hollywood | Horror, Thriller | 480p/720p/1080p",
+        date: "2025",
+        category: "horror, thriller, hollywood",
+        poster: "https://image.tmdb.org/t/p/original/uHE9sD39lsQnMpCvTRmZrAQpHvH.jpg",
+        link: "/public/download-locked-2025-hindi-english-480p-720p-1080p.html"
+    },
+        {
         title: "Avengers Endgame (2019)",
         poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
         details: "Adventure, Science Fiction, Action| Marvel | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
