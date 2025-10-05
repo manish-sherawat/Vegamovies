@@ -9,7 +9,25 @@ function shuffleArray(array) {
 }
 
 const movies = [
-    
+    {
+        id: 0,
+        title: "Loki Season 2 (2025)",
+        poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/voHUmluYmKyleFkTu3lOXQG702u.jpg",
+        details: "Action, Adventure, Fantasy | Disney+ | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
+        date: "4 Oct 2025",
+        category: "disney",
+        platform: "disney",
+        link: "/public/download-loki-season-2-2025-hindi-english-480p-720p-1080p.html"
+    },
+ {
+        title: "Breaking Bed All Season ",
+        details: "Drama, Crime | 480p/720p/1080p",
+        date: "2025",
+        category: "drama, crime, hollywood",
+        poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
+        link: "/public/download-breaking-bad-series-2013.html",
+        platform: "netflix"
+    },
     {
         id: 1,
         title: "Superman: Legacy (2025)",
@@ -23,18 +41,20 @@ const movies = [
         id: 2,
         title: "Squid Games (2025)",
         poster: "https://m.media-amazon.com/images/M/MV5BMDA0NDBkMzMtOWQ0Zi00NjE1LTkxNWYtYzI0MTE0NGJjZTQ1XkEyXkFqcGc@._V1_.jpg",
-        details: "Action, Thriller | 480p [350MB] | 720p [1GB] | 1080p [2.5GB]",
+        details: "Action, Thriller | Netflix | 480p [350MB] | 720p [1GB] | 1080p [2.5GB]",
         date: "19 Jul 2025",
         category: "netflix",
+        platform: "netflix",
         link: "/public/download-squid-game-s01-s01-s03-hindi-480p-720p-1080p.html"
     },
     {
         id: 3,
         title: "Solo Leveling (2025)",
         poster: "https://imgs.search.brave.com/pbopPV5pCI6cDTEtmNbtcN4LnwP76JjmxMc3nO9F8Ig/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuanVzdHdhdGNo/LmNvbS9wb3N0ZXIv/MzIzMDM0NTkwL3Mz/MzIvb3JlLWRha2Ut/bGV2ZWwtdXAtbmEt/a2VuLXJlYXdha2Vu/aW5n",
-        details: "Animation, Comedy, Action | 480p [300MB] | 720p [900MB] | 1080p [2.1GB]",
+        details: "Animation, Comedy, Action | Prime Video | 480p [300MB] | 720p [900MB] | 1080p [2.1GB]",
         date: "3 Jul 2025",
         category: "animation",
+        platform: "prime",
         link: "/public/download-solo-leveling-s01-s02-hindi-english-japanese-480p-720p-1080p.html"
     },
     {
@@ -45,6 +65,16 @@ const movies = [
         date: "14 Jun 2025",
         category: "animation",
         link: "/public/download-how-to-train-your-dragon-2025-hindi-english-480p-720p-1080p.html"
+    },
+    {
+        id: 12,
+        title: "Echo (2025)",
+        poster: "https://media.themoviedb.org/t/p/w188_and_h282_bestv2/vFyJH630cF68LohVYjQW49074Sy.jpg",
+        details: "Action, Adventure | Disney+ | 480p [250MB] | 720p [600MB] | 1080p [1.2GB]",
+        date: "1 Oct 2025",
+        category: "disney",
+        platform: "disney",
+        link: "/public/download-echo-season-1-hindi-english-480p-720p-1080p.html"
     },
     {
         id: 5,
@@ -110,6 +140,7 @@ const movies = [
         details: "Animation, Action, Adventure| Netflix | 480p [96MB] | 720p [250MB] | 1080p [500MB]",
         date: "16 Jun 2025",
         category: "netflix",
+        platform: "netflix",
         link: "/public/download-sakamoto-days-season-1-multi-audio-hindi-english-japanese-anime-series.html"
     },
     {
@@ -118,7 +149,7 @@ const movies = [
         poster: "https://image.tmdb.org/t/p/original/pZPJsaFKWheTOerVhLnpP8TPp4B.jpg",
         details: "Science Fiction, Adventure | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
         date: "19 Augest 2025",
-        category: "hollywood",
+        category: "marvel",
         link: "/public/download-the-fantastic-four-first-steps-2025-dual-audio-hindi-english.html"
     },
     {
@@ -136,7 +167,7 @@ const movies = [
         poster: "https://image.tmdb.org/t/p/original/36xXlhEpQqVVPuiZhfoQuaY4OlA.jpg",
         details: "Sci-Fi & Fantasy, Mystery, Comedy | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
         date: "19 Augest 2025",
-        category: "hollywood",
+        category: "netflix",
         link: "/public/download-wednesday-hindi-480p-720p-1080p.html"
     },
     {
@@ -155,7 +186,8 @@ const movies = [
         details: "Animation, Comedy, Drama | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
         date: "19 Augest 2025",
         category: "anime",
-        link: "/public/download-my-dress-up-darling-hindi-season-480p-720p-1080p.html"
+        link: "/public/download-my-dress-up-darling-hindi-season-480p-720p-1080p.html",
+        platform: "anime"
     },
     {
         id: 17,
@@ -168,12 +200,13 @@ const movies = [
     },
     {
         id: 18,
-        title: "War 2 (2025)",
-        poster: "https://image.tmdb.org/t/p/original/2Yc8Kl2ldPpDzLrG2M5Ddv62FXB.jpg",
-        details: "Action, Thriller, Adventure | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
-        date: "19 Augest 2025",
-        category: "bollywood",
-        link: "/public/download-war-2-2025-v2-hdtc-hindi-full-movie.html"
+        title: "Gen V (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/tEv842Nd5uMSavURG4aQO1pNtst.jpg",
+        details: "Action & Adventure, Drama, Sci-Fi & Fantasy | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
+        date: "10 Oct. 2025",
+        category: "amazon",
+        platform: "prime",
+        link: "/public/download-gen-v-season-1-hindi-english-480p-720p-1080p.html"
     },
 
     {
@@ -182,7 +215,8 @@ const movies = [
         date: "2025",
         category: "action, adventure, hollywood",
         poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
-        link: "/public/download-sonic-the-hedgehog-2-2022-dual-audio-hindi-dubbed-movie.html"
+        link: "/public/download-sonic-the-hedgehog-2-2022-dual-audio-hindi-dubbed-movie.html",
+        platform: "prime"
     },
     {
         title: "The Ba***ds of Bollywood",
@@ -190,7 +224,8 @@ const movies = [
         date: "2025",
         category: "comedy, adventure, bollywood",
         poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/jvETbrvtXT9VVgfBUM1ekJ5uBdB.jpg",
-        link: "/public/download-the-bads-of-bollywood-hindi-netflix-web-series.html"
+        link: "/public/download-the-bads-of-bollywood-hindi-netflix-web-series.html",
+        platform: "netflix"
     },
     {
         title: "Alice in Borderland S01",
@@ -198,7 +233,8 @@ const movies = [
         date: "2025",
         category: "mystery, drama, action, adventure",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/Ac8ruycRXzgcsndTZFK6ouGA0FA.jpg",
-        link: "/public/download-alice-in-borderland-s01-hindi-480p-720p-1080p.html"
+        link: "/public/download-alice-in-borderland-s01-hindi-480p-720p-1080p.html",
+        platform: "netflix"
     },
     {
         title: "Alice in Borderland S02",
@@ -206,7 +242,8 @@ const movies = [
         date: "2025",
         category: "mystery, drama, action, adventure",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/2iUyLK0QyTI6VlXOp3SZbBeR7UW.jpg",
-        link: "/public/download-alice-in-borderland-s02-hindi-480p-720p-1080p.html"
+        link: "/public/download-alice-in-borderland-s02-hindi-480p-720p-1080p.html",
+        platform: "netflix"
     },
     {
         title: "Alice in Borderland S03",
@@ -214,7 +251,8 @@ const movies = [
         date: "2025",
         category: "mystery, drama, action, adventure",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/wEp1zv7AUa1pj6Wav0M4p4wMO6H.jpg",
-        link: "/public/download-alice-in-borderland-s03-hindi-480p-720p-1080p.html"
+        link: "/public/download-alice-in-borderland-s03-hindi-480p-720p-1080p.html",
+        platform: "netflix"
     },
         {
         title: "Steve (2025)",
@@ -222,7 +260,8 @@ const movies = [
         date: "2025",
         category: "drama,comedy",
         poster: "https://imgs.search.brave.com/Yg7KFSxgNWS9LC1h0c9WHaApV2DPRap5iU9lbDa5zgU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2Rv/YmxhamUvaW1hZ2Vz/LzMvM2EvU3RldmVf/MjAyNS5qcGVnL3Jl/dmlzaW9uL2xhdGVz/dC9zY2FsZS10by13/aWR0aC1kb3duLzI2/OD9jYj0yMDI1MDgx/MzIzMzgwOSZwYXRo/LXByZWZpeD1lcw",
-        link: "/public/download-steve-2025-hindi-english-480p-720p-1080p.html"
+        link: "/public/download-steve-2025-hindi-english-480p-720p-1080p.html",
+        platform: "netflix"
     },
     // ...repeat for ids 11-50 with trending movies/series...
 ];
@@ -277,15 +316,51 @@ document.addEventListener('DOMContentLoaded', function() {
             let filteredMovies = [];
             // Web Series platforms
             if (["Netflix Originals", "Amazon Prime Series", "Disney+ Hotstar", "MX Player", "HBO MAX"].includes(text)) {
-                filteredMovies = movies.filter(movie => movie.details.toLowerCase().includes(text.split(' ')[0].toLowerCase()));
+                const platform = text.toLowerCase().includes('disney') ? 'disney' :
+                               text.toLowerCase().includes('mx') ? 'mxplayer' :
+                               text.split(' ')[0].toLowerCase();
+                filteredMovies = movies.filter(movie => {
+                    const movieDetails = movie.details.toLowerCase();
+                    const movieCategory = movie.category ? movie.category.toLowerCase() : '';
+                    return movie.platform === platform || 
+                           movieDetails.includes(platform) || 
+                           movieCategory.includes(platform) || 
+                           (platform === 'disney' && (movieDetails.includes('disney+') || movieDetails.includes('disney plus'))) ||
+                           (platform === 'mxplayer' && (movieDetails.includes('mx player') || movieDetails.includes('mxplayer'))) ||
+                           (platform === 'netflix' && movieDetails.includes('netflix')) ||
+                           (platform === 'amazon' && (movieDetails.includes('prime') || movieDetails.includes('amazon prime'))) ||
+                            (platform === 'anime' && (movieDetails.includes('anime') || movieDetails.includes('anime'))) ||
+                           (platform === 'hbo' && (movieDetails.includes('hbo') || movieDetails.includes('hbo max')));
+                });
             }
             // Dual Audio
             else if (["Hindi-English", "Hindi-Japanese", "Hindi-Korean", "Multi Audio"].includes(text)) {
-                filteredMovies = movies.filter(movie => movie.details.toLowerCase().includes(text.toLowerCase()));
+                const searchTerms = text.toLowerCase().split('-');
+                filteredMovies = movies.filter(movie => {
+                    const details = movie.details.toLowerCase();
+                    if (text === "Multi Audio") {
+                        return details.includes('multi audio') || details.includes('dual audio');
+                    }
+                    return searchTerms.every(term => details.includes(term));
+                });
             }
             // Genre
-            else if (["Action", "Comedy", "Drama", "Romance", "Thriller", "Animation"].includes(text)) {
-                filteredMovies = movies.filter(movie => movie.details.toLowerCase().includes(text.toLowerCase()));
+            else if (["Action", "Comedy", "Drama", "Romance", "Thriller", "Animation", "Anime"].includes(text)) {
+                const genre = text.toLowerCase();
+                filteredMovies = movies.filter(movie => {
+                    const details = movie.details.toLowerCase();
+                    const category = movie.category ? movie.category.toLowerCase() : '';
+                    const platform = movie.platform ? movie.platform.toLowerCase() : '';
+                    
+                    if (genre === 'anime') {
+                        return category.includes('anime') || 
+                               details.includes('anime') || 
+                               platform === 'anime' || 
+                               (details.includes('animation') && details.includes('japanese'));
+                    }
+                    
+                    return details.includes(genre) || category.includes(genre);
+                });
             }
             // By Year
             else if (["2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015"].includes(text)) {
@@ -304,6 +379,14 @@ document.addEventListener('DOMContentLoaded', function() {
 // Intersection search: include new page items in search
 let extraMovies = [
         {
+        title: "War 2 (2025)",
+        poster: "https://image.tmdb.org/t/p/original/2Yc8Kl2ldPpDzLrG2M5Ddv62FXB.jpg",
+        details: "Action, Thriller, Adventure | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
+        date: "19 Augest 2025",
+        category: "bollywood",
+        link: "/public/download-war-2-2025-v2-hdtc-hindi-full-movie.html"
+    },
+        {
         title: "Locked",
         details: "Hollywood | Horror, Thriller | 480p/720p/1080p",
         date: "2025",
@@ -314,9 +397,10 @@ let extraMovies = [
         {
         title: "Avengers Endgame (2019)",
         poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
-        details: "Adventure, Science Fiction, Action| Marvel | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
-        date: "16 Jun 2025",
-        category: "hollywood",
+        details: "Action, Adventure, Fantasy | Disney+ | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
+        date: "4 Oct 2025",
+        category: "disney",
+        platform: "disney",
         link: "/public/download-avengers-endgame-2019-dual-audio-hindi-english.html"
     },
     {
@@ -411,14 +495,21 @@ function updateFilters() {
     } else {
         currentMovies = movies.filter(movie => {
             const details = movie.details.toLowerCase();
-            return activeFilters.some(filter => {
-                if (filter.includes('p')) {
+            const category = movie.category ? movie.category.toLowerCase() : '';
+            const platform = movie.platform ? movie.platform.toLowerCase() : '';
+            return activeFilters.every(filter => {
+                if (filter.includes('p')) { // Resolution filter (480p, 720p, 1080p)
                     return details.includes(filter);
                 }
-                if (['netflix', 'amazon prime', 'disney+', 'apple tv+'].includes(filter)) {
-                    return details.includes(filter.replace('+', ''));
+                if (['netflix', 'amazon', 'disney+', 'apple tv+'].includes(filter)) {
+                    const platformName = filter.replace('+', '');
+                    return platform === platformName || 
+                           details.includes(platformName) || 
+                           category.includes(platformName) ||
+                           (platformName === 'disney' && (details.includes('disney+') || details.includes('disney plus'))) ||
+                           (platformName === 'amazon' && (details.includes('prime') || details.includes('amazon prime')));
                 }
-                return details.includes(filter);
+                return details.includes(filter) || category.includes(filter);
             });
         });
     }
@@ -662,7 +753,7 @@ function updateFilters() {
                 if (filter.includes('p')) {
                     return details.includes(filter);
                 }
-                if (['netflix', 'amazon prime', 'disney+', 'apple tv+'].includes(filter)) {
+                if (['netflix', 'amazon', 'disney+', 'apple tv+'].includes(filter)) {
                     return details.includes(filter.replace('+', ''));
                 }
                 return details.includes(filter);
