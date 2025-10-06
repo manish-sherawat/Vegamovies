@@ -1,14 +1,19 @@
 // Movie Database - Latest Movies July 2025
 // 50 trending movies/series (sampled from TMDB, Netflix, Prime, etc.)
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-}
+
 
 const movies = [
+    {
+        id: 0,
+        title: "Conjuring The Last Rites (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/jvOsWFWKioyJ8U2x9haZlM16W0c.jpg",
+        details: "Horror | Disney+ | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
+        date: "6 Oct 2025",
+        category: "disney",
+        platform: "disney",
+        link: "/public/download-the-conjuring-last-rites-2025-hindi-720p-1080p.html"
+    },
+
     {
         id: 0,
         title: "Loki Season 2 (2025)",
@@ -148,7 +153,7 @@ const movies = [
         title: "The Fantastic Four (2025)",
         poster: "https://image.tmdb.org/t/p/original/pZPJsaFKWheTOerVhLnpP8TPp4B.jpg",
         details: "Science Fiction, Adventure | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
-        date: "19 Augest 2025",
+        date: "19 August 2025",
         category: "marvel",
         link: "/public/download-the-fantastic-four-first-steps-2025-dual-audio-hindi-english.html"
     },
@@ -157,7 +162,7 @@ const movies = [
         title: "Mission Impossible: Final Reckoning (2025)",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg",
         details: "Action, Adventure, Thriller | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
-        date: "19 Augest 2025",
+        date: "19 August 2025",
         category: "hollywood",
         link: "/public/download-mission-impossible- the-final-reckoning-2025-dual-audio.html"
     },
@@ -166,7 +171,7 @@ const movies = [
         title: "Wednesday S01-S02 (2022-2025)",
         poster: "https://image.tmdb.org/t/p/original/36xXlhEpQqVVPuiZhfoQuaY4OlA.jpg",
         details: "Sci-Fi & Fantasy, Mystery, Comedy | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
-        date: "19 Augest 2025",
+        date: "19 August 2025",
         category: "netflix",
         link: "/public/download-wednesday-hindi-480p-720p-1080p.html"
     },
@@ -175,7 +180,7 @@ const movies = [
         title: "Rent a Girlfriend S01-S02 (2022-2025)",
         poster: "https://image.tmdb.org/t/p/original/cJSPdL528HZi3OyhQPAG5wAsHVu.jpg",
         details: "Animation, Comedy | 480p [400MB] | 720p [1.2GB] | 1080p [2.8GB]",
-        date: "19 Augest 2025",
+        date: "19 August 2025",
         category: "anime",
         link: "/public/download-rent-a-girlfriend-hindi-japanese-480p-720p-1080p.html"
     },
@@ -184,7 +189,7 @@ const movies = [
         title: "My Dress-Up Darling (2022 - 2025)",
         poster: "https://image.tmdb.org/t/p/original/A6mxBwvvv63JXZm3xXKv4SugE0L.jpg",
         details: "Animation, Comedy, Drama | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
-        date: "19 Augest 2025",
+        date: "19 August 2025",
         category: "anime",
         link: "/public/download-my-dress-up-darling-hindi-season-480p-720p-1080p.html",
         platform: "anime"
@@ -194,7 +199,7 @@ const movies = [
         title: "Coolie (2025)",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/4NHs0s9WynldKaOpz2UhwD6ZLXe.jpg",
         details: "Action, Thriller, Crime | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
-        date: "19 Augest 2025",
+        date: "19 August 2025",
         category: "bollywood",
         link: "/public/download-coolie-2025-hdtc-hindi-full-movie.html"
     },
@@ -203,7 +208,7 @@ const movies = [
         title: "Gen V (2025)",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/tEv842Nd5uMSavURG4aQO1pNtst.jpg",
         details: "Action & Adventure, Drama, Sci-Fi & Fantasy | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
-        date: "10 Oct. 2025",
+        date: "4 Oct. 2025",
         category: "amazon",
         platform: "prime",
         link: "/public/download-gen-v-season-1-hindi-english-480p-720p-1080p.html"
@@ -265,6 +270,7 @@ const movies = [
     },
     // ...repeat for ids 11-50 with trending movies/series...
 ];
+movies.sort((a, b) => new Date(b.date) - new Date(a.date));
 // Pagination variables
 let currentPage = 1;
 const MOVIES_PER_PAGE = 15;
@@ -382,7 +388,7 @@ let extraMovies = [
         title: "War 2 (2025)",
         poster: "https://image.tmdb.org/t/p/original/2Yc8Kl2ldPpDzLrG2M5Ddv62FXB.jpg",
         details: "Action, Thriller, Adventure | 480p [200MB] | 720p [400MB] | 1080p [800MB]",
-        date: "19 Augest 2025",
+        date: "19 August 2025",
         category: "bollywood",
         link: "/public/download-war-2-2025-v2-hdtc-hindi-full-movie.html"
     },
@@ -444,6 +450,7 @@ let extraMovies = [
         link: "/public/download-jurassic-world-rebirth-2025.html"
     }
 ];
+extraMovies.sort((a, b) => new Date(b.date) - new Date(a.date));
 function handleSearch(event) {
     const searchTerm = event.target.value.toLowerCase();
     if (searchTerm === '') {
