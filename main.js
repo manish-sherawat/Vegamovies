@@ -5,6 +5,26 @@
 const movies = [
     {
         id: 0,
+        title: "Sunny Sanskari Ki Tulsi Kumari (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/h3lncTnK86R8XylpXgpe0JfU1wm.jpg",
+        details: "Romance, Comedy | Bollywood | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
+        date: "7 Oct 2025",
+        category: "bollywood",
+        platform: "bollywood",
+        link: "/public/sunny-sanskari-ki-tulsi-kumari-2025-hindi-full-movie.html"
+    },
+    {
+        id: 0,
+        title: "Robinhood (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/ucWYixRZBvqoXOM83LdmSSn45na.jpg",
+        details: "Action | Bollywood | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
+        date: "7 Oct 2025",
+        category: "bollywood",
+        platform: "bollywood",
+        link: "/public/robinhood-2025-uncut-hindi-full-movie.html"
+    },
+    {
+        id: 0,
         title: "Conjuring The Last Rites (2025)",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/jvOsWFWKioyJ8U2x9haZlM16W0c.jpg",
         details: "Horror | Disney+ | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
