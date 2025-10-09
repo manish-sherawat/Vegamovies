@@ -5,6 +5,16 @@
 const movies = [
     {
         id: 0,
+        title: "F1 (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/vN56KYeuW4eAci0Rllp36IGPvSo.jpg",
+        details: "Action, Drama | Hollywood | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
+        date: "9 Oct 2025",
+        category: "hollywood",
+        platform: "hollywood",
+        link: "/public/f1-the-movie-2025-hindi-english-480p-720p-1080p.html"
+    },
+    {
+        id: 0,
         title: "Sunny Sanskari Ki Tulsi Kumari (2025)",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/h3lncTnK86R8XylpXgpe0JfU1wm.jpg",
         details: "Romance, Comedy | Bollywood | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
