@@ -1,4 +1,4 @@
-   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
  * {
     margin: 0;
     padding: 0;
@@ -64,27 +64,51 @@
     border-bottom: 1px solid #333;
   }
   
+  /* Navigation links styling */
+.nav-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-links a {
+  display: block;
+  padding: 10px 15px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+  background: #333;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
   .nav-links {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-links {
+    grid-template-columns: 1fr;
+    gap: 5px;
   }
   
   .nav-links a {
-    color: #ccc;
-    text-decoration: none;
-    font-weight: 500;
+    padding: 8px 10px;
     font-size: 14px;
-    padding: 8px 15px;
-    border-radius: 4px;
-    transition: all 0.3s ease;
   }
-  
-  .nav-links a:hover {
-    background-color: #333;
-    color: white;
-  }
+}
   
   .main-content {
     padding: 20px 0;
@@ -208,23 +232,48 @@
   .share-buttons {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin: 15px 0;
+    gap: 5px;
+    margin: 2px 0;
+    flex-wrap: wrap; /* Allow buttons to wrap on small screens */
+    padding: 0 10px;
   }
   
   .share-btn {
-    background-color: #333;
+    padding: 8px 12px;
     border: none;
-    color: white;
-    padding: 8px 15px;
-    font-size: 12px;
     border-radius: 4px;
+    background: #333;
+    color: white;
     cursor: pointer;
-    transition: all 0.3s ease;
+    font-size: 14px;
+    min-width: 80px;
+    transition: background 0.3s ease;
   }
   
-  .share-btn:hover {
-    background-color: #555;
+  /* Responsive adjustments */
+  @media screen and (max-width: 480px) {
+    .share-buttons {
+      gap: 4px; /* Reduce gap on mobile */
+    }
+    
+    .share-btn {
+      padding: 6px 8px;
+      font-size: 12px;
+      min-width: 60px;
+    }
+  }
+  
+  /* For very small screens */
+  @media screen and (max-width: 320px) {
+    .share-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .share-btn {
+      width: 100%;
+      max-width: 200px;
+    }
   }
   
   .movie-info {
@@ -460,7 +509,7 @@
     
     .download-btn {
       width: 100%;
-      max-width: 250px;
+      max-width: 300px;
     }
   }
   
@@ -485,7 +534,7 @@
     }
     
     .movie-poster {
-      width: 180px;
+      width: 200px;
     }
     
     .movie-poster img {
