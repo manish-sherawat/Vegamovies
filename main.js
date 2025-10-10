@@ -5,6 +5,16 @@
 const movies = [
     {
         id: 0,
+        title: "Death Note (Season 1) [E16 Added]",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/nqPFi22qOOi8xnB1mrEasnG02vH.jpg",
+        details: "Animation, Mystery, Sci-Fi & Fantasy | Animation | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
+        date: "10 Oct 2025",
+        category: "anime",
+        platform: "anime",
+        link: "/public/death-note-season-1-hindi-english-720p-1080p.html"
+    },
+    {
+        id: 0,
         title: "F1 (2025)",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/vN56KYeuW4eAci0Rllp36IGPvSo.jpg",
         details: "Action, Drama | Hollywood | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
@@ -553,7 +563,99 @@ function updateFilters() {
     currentPage = 1;
     loadMovies(currentMovies, currentPage);
 }
-// ...existing code...
+
+// Update event listeners for filters
+document.addEventListener('DOMContentLoaded', function() {
+    // Initial sort and load
+    currentMovies = [...movies, ...extraMovies].sort(compareByDate);
+    loadMovies(currentMovies, currentPage);
+    
+    // Filter event listeners
+    document.querySelectorAll('.dropdown-content a').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const filterText = this.textContent.trim().toLowerCase();
+            
+            // Reset current movies
+            currentMovies = [...movies, ...extraMovies];
+            
+            // Apply filters based on selection
+            switch(true) {
+                // Platform filters
+                case /netflix|prime|disney\+|mx player|hbo max/.test(filterText):
+                    const platform = filterText.includes('disney') ? 'disney' :
+                                   filterText.includes('mx') ? 'mxplayer' :
+                                   filterText.split(' ')[0].toLowerCase();
+                    
+                    currentMovies = currentMovies.filter(movie => {
+                        const details = movie.details.toLowerCase();
+                        const category = (movie.category || '').toLowerCase();
+                        return movie.platform === platform || 
+                               details.includes(platform) || 
+                               category.includes(platform);
+                    });
+                    break;
+
+                // Language filters
+                case /hindi-english|hindi-japanese|hindi-korean|multi audio/.test(filterText):
+                    currentMovies = currentMovies.filter(movie => {
+                        const details = movie.details.toLowerCase();
+                        return filterText === "multi audio" ? 
+                               details.includes('multi audio') || details.includes('dual audio') :
+                               filterText.split('-').every(term => details.includes(term));
+                    });
+                    break;
+
+                // Genre filters
+                case /action|comedy|drama|romance|thriller|animation|anime/.test(filterText):
+                    currentMovies = currentMovies.filter(movie => {
+                        const details = movie.details.toLowerCase();
+                        const category = (movie.category || '').toLowerCase();
+                        const platform = (movie.platform || '').toLowerCase();
+                        
+                        if (filterText === 'anime') {
+                            return category.includes('anime') || 
+                                   details.includes('anime') || 
+                                   platform === 'anime';
+                        }
+                        return details.includes(filterText) || category.includes(filterText);
+                    });
+                    break;
+
+                // Year filters
+                case /202[0-5]|201[5-9]/.test(filterText):
+                    currentMovies = currentMovies.filter(movie => 
+                        movie.date.includes(filterText)
+                    );
+                    break;
+
+                default:
+                    // No filter - show all movies
+                    break;
+            }
+
+            // Sort filtered results by date
+            currentMovies.sort(compareByDate);
+            
+            // Reset to first page and load filtered movies
+            currentPage = 1;
+            loadMovies(currentMovies, currentPage);
+            
+            // Update UI to show active filter
+            document.querySelectorAll('.dropdown-content a').forEach(a => 
+                a.classList.remove('active')
+            );
+            this.classList.add('active');
+        });
+    });
+});
+
+// Helper function to compare dates
+function compareByDate(a, b) {
+    const dateA = new Date(a.date.split(' ').length > 1 ? a.date : `1 Jan ${a.date}`);
+    const dateB = new Date(b.date.split(' ').length > 1 ? b.date : `1 Jan ${b.date}`);
+    return dateB - dateA;
+}
 
 // DOM Elements
 const moviesGrid = document.getElementById('moviesGrid');
