@@ -5,6 +5,36 @@
 const movies = [
     {
         id: 0,
+        title: "Elevation (2024)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/tnfc0NJ3BzhJrGJhkkEd6MHBdq5.jpg",
+        details: "Action, Science Fiction, Thriller | Hollywood | DS4K WEB-DL [Hindi (DD5.1) & English] 4K 1080p 720p & 480p",
+        date: "28 Oct 2025",
+        category: "hollywood",
+        platform: "hollywood",
+        link: "/public/elevation-2024-hindi-english-bluray-full-movie.html"
+    },
+    {
+        id: 0,
+        title: "They Call Him OG (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/dTcNQJCMWIEBCsWxUyjnvMNQEEO.jpg",
+        details: "Action, Thriller | Bollywood | DS4K WEB-DL [Hindi (DD5.1) & Telugu] 4K 1080p 720p & 480p",
+        date: "28 Oct 2025",
+        category: "bollywood",
+        platform: "bollywood",
+        link: "/public/they-call-him-og-2025-hindi-full-movie.html"
+    },
+    {
+        id: 0,
+        title: "A House of Dynamite (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/fDoXLZp9Gb3vtn4DNjzVgc6JeWr.jpg",
+        details: "Thriller, War | Hollywood | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
+        date: "28 Oct 2025",
+        category: "hollywood",
+        platform: "hollywood",
+        link: "/public/a-house-of-dynamite-2025-hindi.html"
+    },
+    {
+        id: 0,
         title: "Death Note (Season 1) [E16 Added]",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/nqPFi22qOOi8xnB1mrEasnG02vH.jpg",
         details: "Animation, Mystery, Sci-Fi & Fantasy | Animation | 480p [300MB] | 720p [800MB] | 1080p [1.5GB]",
