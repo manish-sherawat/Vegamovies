@@ -5,6 +5,36 @@
 const movies = [
     {
         id: 0,
+        title: "The Witcher (Season 1-4)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/r3ZekmEuacx8y1uEysnZlO4tEFq.jpg",
+        details: "Fantasy, Drama, Action & Adventure | Hollywood | DS4K WEB-DL [Hindi (DD5.1) & English] 4K 1080p 720p & 480p",
+        date: "12 Nov 2025",
+        category: "hollywood",
+        platform: "netflix",
+        link: "/public/download-the-witcher-hindi-480p-720p-1080p.html"
+    },
+    {
+        id: 0,
+        title: "Tron: Ares (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/chpWmskl3aKm1aTZqUHRCtviwPy.jpg",
+        details: "Science Fiction, Adventure, Action | Hollywood | DS4K WEB-DL [Hindi (DD5.1) & English] 4K 1080p 720p & 480p",
+        date: "12 Nov 2025",
+        category: "hollywood",
+        platform: "hollywood",
+        link: "/public/tron-ares-2025-hindi-480p-720p-1080p.html"
+    },
+    {
+        id: 0,
+        title: "Playdate (2025)",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/fGodXWqJkkkbSebPIlxLSygV8GY.jpg",
+        details: "Action, Comedy | Hollywood | DS4K WEB-DL [Hindi (DD5.1) & English] 4K 1080p 720p & 480p",
+        date: "12 Nov 2025",
+        category: "hollywood",
+        platform: "amazon",
+        link: "/public/playdate-2025-hindi-english-480p-720p-1080p.html"
+    },
+    {
+        id: 0,
         title: "Elevation (2024)",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/tnfc0NJ3BzhJrGJhkkEd6MHBdq5.jpg",
         details: "Action, Science Fiction, Thriller | Hollywood | DS4K WEB-DL [Hindi (DD5.1) & English] 4K 1080p 720p & 480p",
